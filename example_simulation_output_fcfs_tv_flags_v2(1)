@@ -1,0 +1,340 @@
+At time 0:
+    [1;32mTHREAD_ARRIVED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from NEW to READY
+
+At time 0:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Selected from 1 threads; will run to completion of burst
+
+At time 1:
+    [1;32mTHREAD_ARRIVED[0m
+    Thread 1 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from NEW to READY
+
+At time 5:
+    [1;32mTHREAD_ARRIVED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from NEW to READY
+
+At time 6:
+    [1;32mTHREAD_ARRIVED[0m
+    Thread 1 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from NEW to READY
+
+At time 7:
+    [1;32mTHREAD_ARRIVED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from NEW to READY
+
+At time 7:
+    [1;32mPROCESS_DISPATCH_COMPLETED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from READY to RUNNING
+
+At time 11:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 11:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 1 in process 0 [1;30m[INTERACTIVE][0m
+    Selected from 4 threads; will run to completion of burst
+
+At time 14:
+    [1;32mTHREAD_DISPATCH_COMPLETED[0m
+    Thread 1 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from READY to RUNNING
+
+At time 16:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 1 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 16:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from BLOCKED to READY
+
+At time 16:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Selected from 4 threads; will run to completion of burst
+
+At time 18:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 1 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from BLOCKED to READY
+
+At time 23:
+    [1;32mPROCESS_DISPATCH_COMPLETED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 27:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 27:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 1 in process 1 [1;30m[SYSTEM][0m
+    Selected from 4 threads; will run to completion of burst
+
+At time 28:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from BLOCKED to READY
+
+At time 30:
+    [1;32mTHREAD_DISPATCH_COMPLETED[0m
+    Thread 1 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 32:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 1 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 32:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Selected from 4 threads; will run to completion of burst
+
+At time 34:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 1 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from BLOCKED to READY
+
+At time 35:
+    [1;32mTHREAD_DISPATCH_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 40:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 40:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Selected from 4 threads; will run to completion of burst
+
+At time 47:
+    [1;32mPROCESS_DISPATCH_COMPLETED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from READY to RUNNING
+
+At time 47:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from BLOCKED to READY
+
+At time 50:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 50:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 1 in process 0 [1;30m[INTERACTIVE][0m
+    Selected from 4 threads; will run to completion of burst
+
+At time 53:
+    [1;32mTHREAD_DISPATCH_COMPLETED[0m
+    Thread 1 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from READY to RUNNING
+
+At time 56:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from BLOCKED to READY
+
+At time 60:
+    [1;32mTHREAD_COMPLETED[0m
+    Thread 1 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from RUNNING to EXIT
+
+At time 60:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Selected from 4 threads; will run to completion of burst
+
+At time 67:
+    [1;32mPROCESS_DISPATCH_COMPLETED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 69:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 69:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 1 in process 1 [1;30m[SYSTEM][0m
+    Selected from 3 threads; will run to completion of burst
+
+At time 71:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from BLOCKED to READY
+
+At time 72:
+    [1;32mTHREAD_DISPATCH_COMPLETED[0m
+    Thread 1 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 75:
+    [1;32mTHREAD_COMPLETED[0m
+    Thread 1 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to EXIT
+
+At time 75:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Selected from 3 threads; will run to completion of burst
+
+At time 78:
+    [1;32mTHREAD_DISPATCH_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 80:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 80:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Selected from 2 threads; will run to completion of burst
+
+At time 81:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from BLOCKED to READY
+
+At time 87:
+    [1;32mPROCESS_DISPATCH_COMPLETED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from READY to RUNNING
+
+At time 88:
+    [1;32mTHREAD_COMPLETED[0m
+    Thread 0 in process 0 [1;30m[INTERACTIVE][0m
+    Transitioned from RUNNING to EXIT
+
+At time 88:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Selected from 2 threads; will run to completion of burst
+
+At time 95:
+    [1;32mPROCESS_DISPATCH_COMPLETED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 97:
+    [1;32mTHREAD_COMPLETED[0m
+    Thread 0 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to EXIT
+
+At time 97:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Selected from 1 threads; will run to completion of burst
+
+At time 100:
+    [1;32mTHREAD_DISPATCH_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 108:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 109:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from BLOCKED to READY
+
+At time 109:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Selected from 1 threads; will run to completion of burst
+
+At time 112:
+    [1;32mTHREAD_DISPATCH_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 117:
+    [1;32mCPU_BURST_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to BLOCKED
+
+At time 124:
+    [1;32mIO_BURST_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from BLOCKED to READY
+
+At time 124:
+    [1;37mDISPATCHER_INVOKED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Selected from 1 threads; will run to completion of burst
+
+At time 127:
+    [1;32mTHREAD_DISPATCH_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from READY to RUNNING
+
+At time 130:
+    [1;32mTHREAD_COMPLETED[0m
+    Thread 2 in process 1 [1;30m[SYSTEM][0m
+    Transitioned from RUNNING to EXIT
+
+[1;37mProcess 0[0m [1;30m[INTERACTIVE][0m:
+    Thread 0:  ARR: 0      CPU: 8      I/O: 11     TRT: 88     END: 88    
+    Thread 1:  ARR: 1      CPU: 9      I/O: 2      TRT: 59     END: 60    
+
+[1;37mProcess 1[0m [1;30m[SYSTEM][0m:
+    Thread 0:  ARR: 5      CPU: 8      I/O: 3      TRT: 92     END: 97    
+    Thread 1:  ARR: 6      CPU: 5      I/O: 2      TRT: 69     END: 75    
+    Thread 2:  ARR: 7      CPU: 23     I/O: 16     TRT: 123    END: 130   
+
+[1;32mSIMULATION COMPLETED!
+
+[0m[1;30mSYSTEM THREADS:[0m
+    Total count:                3
+    Avg response time:      23.33
+    Avg turnaround time:    94.67
+
+[1;30mINTERACTIVE THREADS:[0m
+    Total count:                2
+    Avg response time:      10.00
+    Avg turnaround time:    73.50
+
+[1;30mNORMAL THREADS:[0m
+    Total count:                0
+    Avg response time:       0.00
+    Avg turnaround time:     0.00
+
+[1;30mBATCH THREADS:[0m
+    Total count:                0
+    Avg response time:       0.00
+    Avg turnaround time:     0.00
+
+Total elapsed time:           130
+Total service time:            53
+Total I/O time:                34
+Total dispatch time:           69
+Total idle time:                8
+
+CPU utilization:           93.85%
+CPU efficiency:            40.77%
+
